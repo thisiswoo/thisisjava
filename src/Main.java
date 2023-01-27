@@ -87,7 +87,7 @@ public class Main {
 
         position = initial + rate * 60;
 
-        // Calculator.java instance vs static ------------
+        /*// Calculator.java instance vs static ------------
         double calResult1 = 10 * 10 * Calculator.pi;
         System.out.println("Calculator instance vs static 1 : " + calResult1);
 
@@ -97,7 +97,7 @@ public class Main {
         int calResult3 = Calculator.minus(10, 5);
         System.out.println("Calculator instance vs static 3 : " + calResult3);
 
-        System.out.println("Calculator instance vs static 4 : " + Calculator.info);
+        System.out.println("Calculator instance vs static 4 : " + Calculator.info);*/
 
         // Earth.java ------------------------------------
         // 상수 읽기
