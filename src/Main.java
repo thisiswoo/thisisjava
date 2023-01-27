@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
+
         // Singleton.java ------------------------------------
         // Singleton obj1 = new Singleton();   // 컴파일 에러
         // Singleton obj2 = new Singleton();   // 컴파일 에러

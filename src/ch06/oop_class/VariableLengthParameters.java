@@ -3,6 +3,7 @@ package ch06.oop_class;
 public class VariableLengthParameters {
 
     // 해당 class 내의 main 메서드에서 실행하기 위해 static 키워드 추가
+//    public class Computer {
     public static class Computer {
         /*
         int[] values = { 1, 2, 3 };
