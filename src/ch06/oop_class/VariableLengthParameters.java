@@ -2,7 +2,7 @@ package ch06.oop_class;
 
 public class VariableLengthParameters {
 
-    // 해당 class 내의 main 메서드에서 실행하기 위해 static 키워드 추가
+    // main() 메서드에서 바로 호출하기 위해 정적 메서드(static) 선언
 //    public class Computer {
     public static class Computer {
         /*

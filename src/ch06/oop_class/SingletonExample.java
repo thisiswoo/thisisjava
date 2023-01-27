@@ -2,9 +2,8 @@ package ch06.oop_class;
 
 public class SingletonExample {
 
-    // 해당 class 내의 main 메서드에서 실행하기 위해 static 키워드 추가
+    // main() 메서드에서 바로 호출하기 위해 정적 메서드(static) 선언
 //    public class Singleton {
-
     public static class Singleton {
         // private 접근 권한을 갖는 정적 필드 선언과 초기화
         private static Singleton singleton = new Singleton();

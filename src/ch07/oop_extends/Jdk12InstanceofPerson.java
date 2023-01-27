@@ -1,9 +1,11 @@
-public class Person {
+package ch07.oop_extends;
+
+public class Jdk12InstanceofPerson {
     // 필드 선언
     public String name;
 
     // 생성자 선언
-    public Person(String name) {
+    public Jdk12InstanceofPerson(String name) {
         this.name = name;
     }
 

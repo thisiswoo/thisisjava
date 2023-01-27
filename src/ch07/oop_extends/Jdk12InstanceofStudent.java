@@ -1,9 +1,11 @@
-public class Student extends Person {
+package ch07.oop_extends;
+
+public class Jdk12InstanceofStudent extends Jdk12InstanceofPerson {
     // 필드 선언
     public int studentNo;
 
     // 생성자 선언
-    public Student(String name, int studentNo) {
+    public Jdk12InstanceofStudent(String name, int studentNo) {
         super(name);
         this.studentNo = studentNo;
     }
@@ -12,5 +14,4 @@ public class Student extends Person {
     public void study() {
         System.out.println("공부를 합니다.");
     }
-
 }
