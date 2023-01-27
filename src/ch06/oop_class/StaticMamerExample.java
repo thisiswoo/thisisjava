@@ -2,8 +2,7 @@ package ch06.oop_class;
 
 public class StaticMamerExample {
 
-    // 해당 class 내의 main 메서드에서 실행하기 위해 static 키워드 추가
-    public static class Calculator {
+    public class Calculator {
         String color;   // instance field
         void setColor(String color) {   // instance method
             this.color = color;
