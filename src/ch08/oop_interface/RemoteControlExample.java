@@ -29,5 +29,8 @@ public class RemoteControlExample {
         // default 메서드 호출
         rc.setMute(true);
         rc.setMute(false);
+
+        // 정적 메소드 호출
+        RemoteControl.changeBattery();
     }
 }

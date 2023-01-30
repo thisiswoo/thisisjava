@@ -20,4 +20,9 @@ public interface RemoteControl {
             System.out.println("무음을 해제합니다.");
         }
     }
+
+    // 정적 메서드
+    static void changeBattery() {
+        System.out.println("리모콘 건전지를 교환합니다.");
+    }
 }
