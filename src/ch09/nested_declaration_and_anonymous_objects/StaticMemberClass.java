@@ -10,5 +10,6 @@ public class StaticMemberClass {
         // StaticMember 클래스의 정적 필드 및 메서드 사용
         System.out.println(StaticMemberClassExample.StaticMember.field2);
         StaticMemberClassExample.StaticMember.staticMethod();
+
     }
 }
