@@ -57,6 +57,8 @@ public class HashSetExample {
             System.out.println("while() element : " + element);
             if (element.equals("Spring")) {
                 // 가져온 객체를 컬렉션에서 제거
+                // for 문을 사용하지 않는 이유는 반복할 횟수를 인식하고 작동하게 되는데,
+                // for 문 작동 중에 만약 반복하는 갯수의 값을 제거하게 되면 오류가 발생하게 된다.
                 iterator.remove();
             }
         }
@@ -66,8 +68,19 @@ public class HashSetExample {
         whileSet.remove("JDBC");
 
         // 객체를 하나씩 가져와서 처리
+        // for 문을 사용하지 않는 이유는 반복할 횟수를 인식하고 작동하게 되는데,
+        // for 문 작동 중에 만약 반복하는 갯수의 값을 제거하게 되면 오류가 발생하게 된다.
         for (String element : whileSet) {
             System.out.println("객체를 하나씩 가져와서 처리 element : " + element);
+            // 에러 예제
+            if (element.equals("Java")) {
+                whileSet.remove(element);
+                // exception 발생
+                // Exception in thread "main" java.util.ConcurrentModificationException
+                // at java.base/java.util.HashMap$HashIterator.nextNode(HashMap.java:1597)
+                // at java.base/java.util.HashMap$KeyIterator.next(HashMap.java:1620)
+                // at ch15.collection_framwork.HashSetExample.main(HashSetExample.java:73)
+            }
         }
 
         // 출력 ------------------------------------
