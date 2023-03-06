@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-public class GetStreamFromCollectionArrays {
+public class GetStreamFromArrays {
     public static void main(String[] args) {
         String[] strArray = {"홍길동", "김길동", "이길동"};
         Stream<String> strStream = Arrays.stream(strArray);
