@@ -1,10 +1,10 @@
 package ch17.stream_element_processing;
 
-public class ComparableSortingStudent implements Comparable<ComparableSortingStudent> {
+public class SortingComparableStudent implements Comparable<SortingComparableStudent> {
     private String name;
     private int score;
 
-    public ComparableSortingStudent(String name, int score) {
+    public SortingComparableStudent(String name, int score) {
         this.name = name;
         this.score = score;
     }
@@ -18,7 +18,7 @@ public class ComparableSortingStudent implements Comparable<ComparableSortingStu
     }
 
     @Override
-    public int compareTo(ComparableSortingStudent o) {
+    public int compareTo(SortingComparableStudent o) {
         // score와 o.score가 같을 경우 0을 리턴
         // 작을 경우 음수 리턴
         // 클경우 양수 리턴

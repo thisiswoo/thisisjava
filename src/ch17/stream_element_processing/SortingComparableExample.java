@@ -4,13 +4,13 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-public class ComparableSortingExample {
+public class SortingComparableExample {
     public static void main(String[] args) {
         // List 컬렉션 생성
-        List<ComparableSortingStudent> studentList = new ArrayList<>();
-        studentList.add(new ComparableSortingStudent("홍길동", 30));
-        studentList.add(new ComparableSortingStudent("김길동", 20));
-        studentList.add(new ComparableSortingStudent("이길동", 10));
+        List<SortingComparableStudent> studentList = new ArrayList<>();
+        studentList.add(new SortingComparableStudent("홍길동", 30));
+        studentList.add(new SortingComparableStudent("김길동", 20));
+        studentList.add(new SortingComparableStudent("이길동", 10));
 
         // 점수를 기준으로 오름차순으로 정렬한 새 스트림 얻기
         studentList.stream()
