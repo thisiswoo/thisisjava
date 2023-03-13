@@ -1,10 +1,13 @@
 package ch18.data_input_output;
 
+import java.io.Serial;
 import java.io.Serializable;
 
 public class ObjectInputOutputStreamMember implements Serializable {
     // 직렬화
-    private static final long serialVersionUID = -622284561026719240L;
+    @Serial
+    private static final long serialVersionUID = -5622078641320873689L;
+
     private String id;
     private String name;
 
