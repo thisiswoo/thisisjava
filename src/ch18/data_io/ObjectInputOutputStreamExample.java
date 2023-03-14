@@ -1,4 +1,4 @@
-package ch18.data_input_output;
+package ch18.data_io;
 
 import java.io.*;
 import java.util.Arrays;

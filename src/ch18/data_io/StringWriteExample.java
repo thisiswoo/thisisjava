@@ -1,9 +1,8 @@
-package ch18.data_input_output;
+package ch18.data_io;
 
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Writer;
-import java.nio.file.Paths;
 
 public class StringWriteExample {
     public static void main(String[] args) {

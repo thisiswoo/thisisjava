@@ -1,7 +1,6 @@
-package ch18.data_input_output;
+package ch18.data_io;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 

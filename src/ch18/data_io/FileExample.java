@@ -1,8 +1,6 @@
-package ch18.data_input_output;
+package ch18.data_io;
 
 import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
