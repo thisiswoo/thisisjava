@@ -92,6 +92,8 @@ public class ConcurrentRequestEchoServer {
         try {
             // ServerSocket을 닫고 port 언바인딩
             serverSocket.close();
+            // 스레드풀 종료
+            executorService.shutdownNow();
             System.out.println("[서버] 종료됨");
         } catch (IOException e) {
             e.printStackTrace();
